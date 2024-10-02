@@ -3,32 +3,33 @@
 
 <head>
     <meta charset="utf-8">
-    <title> Enciclopedia MUA - Contacto</title>
+    <title>Enciclopedia MUA - Contacto</title>
 </head>
 
 <body>
     <header>
-        <h1>Enciclopedia MUA</h1>
         <a href="../index.html">
             <img src="../img/logo.jpg" width="100" alt="logo">
         </a>
+        <h1>Contacto</h1>
     </header>
 
     <hr>
+<p>Los campos con asteriscos son obligatorios (*)</p>
 
     <form action="respuesta/respuesta.html" method="post">
 
         <p>
-            <label> Asunto: <input type="text" required> </label>
+            <label> Asunto*: <input type="text" required> </label>
         </p>
 
         <p>
-            <label> Comentario: <textarea required></textarea> </label>
+            <label> Comentario*: <textarea required></textarea> </label>
         </p>
 
         <p>
-            <label> Yo soy: </label>
-            <select name="Yo soy:">
+            <label> Yo soy*: </label>
+            <select name="Yo soy:" required>
                 <option value="Paciente">Paciente</option>
                 <option value="Científico">Científico</option>
                 <option value="Medico">Medico</option>
@@ -44,15 +45,14 @@
         </p>
 
         <fieldset>
-            <legend>Sexo:</legend>
-            <label>Hombre:<input type="radio" name="sexo"></label><br>
-            <label>Mujer:<input type="radio" name="sexo"></label><br>
-            <label>Otro:<input type="radio" name="sexo"></label><br>
+            <legend>Sexo*:</legend>
+            <label>Hombre: <input type="radio" name="sexo" required></label><br>
+            <label>Mujer: <input type="radio" name="sexo" required></label><br>
+            <label>Otro: <input type="radio" name="sexo" required></label><br>
         </fieldset>
 
         <p>
-            <label for="correo"> Email:</label>
-            <input type="email" id="correo" name="correo" required>
+            <label for="correo"> Email*: <input type="email" id="correo" name="correo" required></label>
         </p>
 
         <p>

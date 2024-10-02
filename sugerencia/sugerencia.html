@@ -1,0 +1,88 @@
+<!doctype HTML>
+<html lang="es">
+
+<head>
+<meta charset="utf-8">
+
+<title> Enciclopedia MUA  - Sugerencias</title>
+
+</head>
+
+<body>
+<header>
+	
+<a href="../index.html">
+	<img src="../img/logo.jpg" width="100" alt="logo">
+</a>
+	<h1>Sugerencias</h1>
+</header>
+
+<hr>
+
+    <form action="respuesta/respuesta.html" method="post">
+
+
+<h3>Escribe su sugerencia para que podamos mejorar el sitio web</h3>
+<p>Los campos con asteriscos son obligatorios (*)</p>
+<form action="/busqueda.html" method="post">
+<section>
+<h3> Datos personales para contacto:</h3>
+<p> <label> Nombre*:  <input type="text" required> </label> </p>
+<p> <label> Apellidos*:  <input type="text" required> </label> </p>
+<p> <label> Fecha nacimiento*:  <input type="date" required> </label> </p>
+<p> <label> Teléfono*:  <input type="tel" pattern="[0-9]{9}" required> </label> </p>
+<p> <label> Correo*:  <input type="email" required> </label> </p>
+</section>
+<section>
+<h3>Formulario de satisfacción:</h3>
+<fieldset>
+<legend>Preguntas adicionales</legend>
+
+        	<p>¿Recomendarías este sitio a otros?</p>
+        	<p>
+            	<label>
+                	<input type="radio" name="recomendarias" value="si"> Sí
+            	</label>
+            	<label>
+                	<input type="radio" name="recomendarias" value="no"> No
+            	</label>
+        	</p>
+
+	<p>¿Te gustaría volver a visitar el sitio?</p>
+        	<p>
+            	<label>
+                	<input type="radio" name="volver_visitar" value="si"> Sí
+            	</label>
+            	<label>
+                	<input type="radio" name="volver_visitar" value="no"> No
+            	</label>
+        	</p>
+	<p>Del 1 al 10, ¿cómo valorarías nuestra página web?</p>
+<p>
+	<label for="valoracion">Valoración:</label>
+	<input type="range" id="valoracion" min="1" max="10" value="1" oninput="this.nextElementSibling.value = this.value">
+	<input type="text" value="1" readonly>
+</p>
+
+            <p>¿Qué color prefieres para el diseño de la página web?</legend></p>
+            <p><label>Color: <input type="color"></label></p>
+</fieldset>	
+</section>
+<section>
+<h3>Desarrolla tu sugerencia:</h3>
+<p>
+        	<label> Sugerencia*: <textarea required></textarea> </label>
+    	</p>
+
+</section>
+
+<input type = "submit" value="enviar">
+
+</form>
+
+<hr>
+<footer>
+	<p>Creado por Jorge Víllora Martínez y Raúl Sánchez Tarí</p>
+</footer>
+
+</body>
