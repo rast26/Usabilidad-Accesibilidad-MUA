@@ -53,13 +53,32 @@ aside ul li a:hover {
 }
 
 
-section, article {
+section {
     margin: 20px;
     padding: 15px;
     background-color: white;
     border-radius: 8px;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
 }
+
+media { 
+	display: flex;
+	justify-content: center;
+    padding: 15px;
+    background-color: white;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+	gap: 40px;
+}
+
+.anuncio {
+    margin: 20px;
+    padding: 15px;
+    background-color: white;
+    border-radius: 8px;
+	border: solid;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
 section ul {
     list-style: none; /* Elimina los puntos de la lista */
     padding: 0;
@@ -67,11 +86,19 @@ section ul {
 }
 
 section ul li {
+	list-style: none;
     margin: 10px 0; /* Agrega espacio entre los elementos de la lista */
 }
 
+section ol li a{
+	color: white;
+	background-color: #E0F7FF;
+    list-style: none; /* Elimina los puntos de la lista */
+    padding: 0;
+    margin: 15px 0;
+}
+
 section ul li a {
-    background-color: #e0f7ff; /* Aplica el color de fondo existente */
     color: #00264d; /* Aplica el color de texto ya definido */
     text-decoration: none;
     font-weight: bold;
@@ -87,7 +114,7 @@ section ul li a:hover {
 }
 
 nav {
-    background-color: #E0F7FF;
+	background-color: #E0F7FF;
     padding: 10px;
     color: black;
     font-weight: bold;
@@ -126,10 +153,10 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #00264d;
+	color: white;
     text-decoration: none;
     font-weight: bold;
-    background-color: #e0f7ff;
+    background-color: #1A4C56;
     padding: 10px;
     border-radius: 5px;
 }
@@ -139,19 +166,19 @@ nav ul li a:hover {
     color: white;
 }
 
-article h3 {
+.anuncio h3 {
     margin-top: 20px;
     font-size: 1.5em;
     color: #004080;
 }
 
-article p {
+.anuncio p {
     margin-top: 10px;
     font-size: 1.2em;
     color: #333;
 }
 
-article img {
+.anuncio img {
     display: block;
     margin-top: 15px;
     width: 150px;
@@ -160,16 +187,18 @@ article img {
     border-radius: 5px;
 }
 
-article ul {
+.anuncio ul {
     margin-top: 10px;
     padding-left: 20px;
 }
 
-article ul li {
+.anuncio ul li {
     margin-bottom: 10px;
+	list-style: none;
 }
 
-article ul li a {
+.anuncio ul li .conBorde{
+	border: 2px solid #3498db;
     color: #00264d;
     background-color: #e0f7ff;
     padding: 8px;
@@ -177,7 +206,7 @@ article ul li a {
     text-decoration: none;
 }
 
-article ul li a:hover {
+.anuncio ul li a:hover {
     background-color: #004080;
     color: white;
 }
