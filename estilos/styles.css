@@ -88,37 +88,37 @@ table{
 }
 
 section ul {
-    list-style: none; /* Elimina los puntos de la lista */
+    list-style: none;
     padding: 0;
     margin: 15px 0;
 }
 
 section ul li {
 	list-style: none;
-    margin: 10px 0; /* Agrega espacio entre los elementos de la lista */
+    margin: 10px 0; 
 }
 
 section ol li a{
 	color: white;
 	background-color: #E0F7FF;
-    list-style: none; /* Elimina los puntos de la lista */
+    list-style: none;
     padding: 0;
     margin: 15px 0;
 }
 
 section ul li a {
-    color: #00264d; /* Aplica el color de texto ya definido */
+    color: #00264d; 
     text-decoration: none;
     font-weight: bold;
     padding: 10px;
-    border-radius: 5px; /* Aplica bordes redondeados */
+    border-radius: 5px; 
     display: inline-block;
-    transition: background-color 0.3s ease; /* Transición suave para hover */
+    transition: background-color 0.3s ease;
 }
 
 section ul li a:hover {
-    background-color: #004080; /* Cambia el fondo en hover */
-    color: white; /* Cambia el texto a blanco en hover */
+    background-color: #004080; 
+    color: white; 
 }
 
 nav {
