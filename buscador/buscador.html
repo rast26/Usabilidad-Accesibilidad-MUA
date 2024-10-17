@@ -4,6 +4,8 @@
 <head>
     <meta charset="utf-8">
     <title>Enciclopedia MUA - Buscador</title>
+<link rel="stylesheet" href="../estilos/styles.css">
+
 </head>
 
 <body>
@@ -11,18 +13,20 @@
         <a href="../index.html">
             <img src="../img/logo.jpg" width="100" alt="logo">
         </a>
+<a href="#contenidoPrincipal" class="saltar">Saltar al contenido principal</a>
+
         <h1>Buscador</h1>
- <hr>
- <nav>
-		<a href="../index.html">Inicio</a><a> > <span>Buscador</span>
-	</nav>
+
 
     </header>
 
-    <hr>
+ <nav>
+		<a href="../index.html">Inicio</a> > <span>Buscador</span>
+	</nav>
+    
 <p>Los campos con asteriscos son obligatorios (*)</p>
 
-    <form action="busqueda/busqueda.html" method="get">
+    <form action="busqueda/busqueda.html" method="get" id="contenidoPrincipal">
 
         <p><label> Descripción*: <input type="text" required> </label></p>
         <p><label> Causas: <input type="text"> </label></p>
@@ -35,7 +39,7 @@
 
     </form>
 
-    <hr>
+    
     <footer>
         <p>Creado por Jorge Víllora Martínez y Raúl Sánchez Tarí</p>
     </footer>

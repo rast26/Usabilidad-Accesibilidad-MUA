@@ -1,0 +1,288 @@
+
+body {
+    font-family: 'Open Sans', sans-serif; 
+    line-height: 1.6;
+    background-color: #f0f8ff;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #00264d;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+}
+
+header img {
+    display: inline-block;
+    margin: 0 auto;
+}
+
+h1, h2, h3 {
+    margin: 0;
+    padding: 15px;
+}
+
+aside ul {
+    list-style: none;
+    padding: 0;
+    justify-content: center;
+	display: flex;
+	gap: 40px;
+}
+
+aside ul li {
+    margin: 10px 0;
+}
+
+aside ul li a {
+    color: #00264d; 
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px;
+    border-radius: 5px;
+    background-color: #e0f7ff; 
+    transition: background-color 0.3s ease;
+    display: inline-block; 
+}
+
+aside ul li a:hover {
+    background-color: #004080; 
+    color: white;
+}
+
+
+section, article {
+    margin: 20px;
+    padding: 15px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+section ul {
+    list-style: none; /* Elimina los puntos de la lista */
+    padding: 0;
+    margin: 15px 0;
+}
+
+section ul li {
+    margin: 10px 0; /* Agrega espacio entre los elementos de la lista */
+}
+
+section ul li a {
+    background-color: #e0f7ff; /* Aplica el color de fondo existente */
+    color: #00264d; /* Aplica el color de texto ya definido */
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px; /* Aplica bordes redondeados */
+    display: inline-block;
+    transition: background-color 0.3s ease; /* Transición suave para hover */
+}
+
+section ul li a:hover {
+    background-color: #004080; /* Cambia el fondo en hover */
+    color: white; /* Cambia el texto a blanco en hover */
+}
+
+nav {
+    background-color: #E0F7FF;
+    padding: 10px;
+    color: black;
+    font-weight: bold;
+    text-align: left;
+}
+
+nav a {
+    background-color: #00264D;
+    padding: 5px;
+    border-radius: 7px;
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover {
+    background-color: #005CB8;
+}
+
+nav span {
+    background-color: #00264D;
+    padding: 5px;
+    border-radius: 7px;
+    text-decoration: none;
+    color: white;
+}
+
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: #00264d;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: #e0f7ff;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    background-color: #004080;
+    color: white;
+}
+
+article h3 {
+    margin-top: 20px;
+    font-size: 1.5em;
+    color: #004080;
+}
+
+article p {
+    margin-top: 10px;
+    font-size: 1.2em;
+    color: #333;
+}
+
+article img {
+    display: block;
+    margin-top: 15px;
+    width: 150px;
+    height: auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+article ul {
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+article ul li {
+    margin-bottom: 10px;
+}
+
+article ul li a {
+    color: #00264d;
+    background-color: #e0f7ff;
+    padding: 8px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+article ul li a:hover {
+    background-color: #004080;
+    color: white;
+}
+
+main ul {
+    list-style-type: disc;
+    padding-left: 20px; 
+    margin: 20px 0; 
+}
+
+main ul li {
+    margin-bottom: 10px; 
+    line-height: 1.6; 
+}
+
+main ul li strong {
+    color: #00264d; 
+    font-weight: bold;
+}
+
+main ul li code {
+    background-color: #e0f7ff; 
+    padding: 2px 5px; 
+    border-radius: 4px; 
+    font-size: 0.95em; 
+}
+
+@media (max-width: 768px) {
+    nav ul {
+        display: block;
+        text-align: center;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+}
+
+
+footer {
+    text-align: center;
+    padding: 25px;
+    background-color: #00264d;
+    color: white;
+}
+
+
+a:focus, button:focus {
+    outline: 2px solid #007BFF;
+    outline-offset: 2px;
+}
+
+
+.saltar {
+	position: absolute;
+	left: -9999px;
+}
+
+.saltar:focus {
+	position: left;
+	left: 20px;
+	background-color: #B3D0D0;
+	color: #000000;
+	padding: 10px;
+	font-weight: bold;
+	text-decoration: none;
+	border-radius: 5px
+}
+
+
+@media (min-width: 1920px) {
+    body {
+        max-width: 1920px;
+        margin: auto;
+    }
+
+    header, nav, section, article {
+        padding: 20px; 
+    }
+
+    h1, h2, h3 {
+        font-size: 2em; 
+    }
+
+    article img {
+        width: 200px; 
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        padding: 10px 0;
+    }
+
+    nav ul li {
+        margin-right: 5px;
+    }
+
+    section, article {
+        margin: 10px;
+        padding: 10px;
+    }
+
+    article img {
+        width: 100px; 
+    }
+}

@@ -1,0 +1,144 @@
+body {
+    font-family: sans-serif; 
+    background-color: #f0f8ff;
+	margin: 0;
+}
+
+header {
+    background-color: #00264d;
+    color: white;
+    padding: 15px 0 0;
+	text-align:center;
+}
+
+
+nav {
+	background-color: #E0F7FF;
+	padding: 10px;
+	color: black;
+	font-weight: bold;
+	text-align: left;
+}
+
+nav a {
+	background-color: #00264D;
+	padding: 5px;
+	border-radius: 7px;
+	text-decoration: none;
+	color: white;
+}
+
+nav a:hover {
+	background-color: #005CB8;
+}
+
+nav span{
+	background-color: #00264D;
+	padding: 5px;
+	border-radius: 7px;
+	text-decoration: none;
+	color: white;
+}
+
+section{
+	margin: 20px;
+    padding: 15px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+section ul{
+    list-style: none;
+    padding-left: 0;
+    margin-top: 10px;
+}
+
+section ul li {
+	font-weight: bold;
+    margin-bottom: 8px;
+	padding: 8px 12px;
+	margin-bottom: 10px;
+    border-radius: 5px; 
+    display: block;
+}
+
+section ul li a{
+	color: black;
+}
+
+main a{
+    margin-bottom: 8px;
+	margin-left: 30px;
+}
+
+section a{
+	text-decoration: none;   
+}
+
+ol {
+    margin-left: 30px; 
+    margin-bottom: 8px;
+	list-style: none;
+}
+
+
+.saltar {
+	position: absolute;
+	left: -9999px;
+}
+
+.saltar:focus {
+	position: left;
+	left: 20px;
+	background-color: #B3D0D0;
+	color: #000000;
+	padding: 10px;
+	font-weight: bold;
+	text-decoration: none;
+	border-radius: 5px
+}
+
+footer {
+    text-align: center;
+    padding: 25px;
+    background-color: #00264d;
+    color: white;
+}
+@media (min-width: 1920px) {
+    body {
+        max-width: 1920px;
+        margin: auto;
+    }
+
+    header, nav, section, article {
+        padding: 20px; 
+    }
+
+    h1, h2, h3 {
+        font-size: 2em; 
+    }
+
+    article img {
+        width: 200px; 
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        padding: 10px 0;
+    }
+
+    nav ul li {
+        margin-right: 5px;
+    }
+
+    section, article {
+        margin: 10px;
+        padding: 10px;
+    }
+
+    article img {
+        width: 100px; 
+    }
+}
