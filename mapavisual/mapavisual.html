@@ -1,59 +1,59 @@
 <!doctype HTML>
 <html lang="es">
-
 <head>
     <meta charset="utf-8">
-    <title> Enciclopedia MUA - Mapa Visual </title>
-    <link href="../estilos/styles.css" rel="stylesheet">
-</head>
+    <title>Enciclopedia MUA - Mapa Visual</title>
+    <link href="../estilos/predeterminado.css" rel="stylesheet">
+   
+<link href="../estilos/estilo-oscuro.css" rel="alternate stylesheet" media="screen" title="Tema oscuro">
+<link href="../estilos/estilo-grande.css" rel="alternate stylesheet" media="screen" title="Tema grande">
 
+<link href="../estilos/estilo-alto-contraste-y-grande.css" rel="alternate stylesheet" media="screen" title="Tema alto contraste y grande">
+
+<link rel="stylesheet" href="../estilos/estilo-impresión.css" media="print">
+
+<link href="../estilos/estilo-alto-contraste.css" rel="alternate stylesheet" media="screen" title="Alto Contraste">
+</head>
 <body>
     <header>
+		<a href="#contenidoPrincipal" class="saltar">Saltar al contenido principal</a>
         <a href="../index.html">
             <img src="../img/logo.jpg" width="100" alt="logo">
-        </a>
-        <a href="#contenidoPrincipal" class="saltar">Saltar al contenido principal</a>
+        </a>  
         <h1>Mapa Visual</h1>
     </header>
-    
-    <nav>
-        <a href="../index.html">Inicio</a> > <span>Mapa Visual</span>
-    </nav>
-    
-    <section id="contenidoPrincipal">
-        <h2>Índice de Contenidos</h2> <!-- Added a heading to the section -->
-        
-        <ul>
-            <li><a href="../index.html">Página principal</a></li>
-            <li><a href="../A/letra_a.html">Índice A</a>
-                <ol>
-                    <li><a href="../A/enfermedades/articulo_anemia.html">Anemia</a></li>
-                    <li><a href="../A/enfermedades/articulo_asma.html">Asma</a></li>
-                </ol>
-            </li>
-
-            <li><a href="../B/letra_b.html">Índice B</a>
-                <ol>
-                    <li><a href="../B/enfermedades/articulo_blefaritis.html">Blefaritis</a></li>
-                    <li><a href="../B/enfermedades/articulo_bradicardia.html">Bradicardia</a></li>
-                </ol>
-            </li>
-
-            <li><a href="../buscador/buscador.html">Buscador</a></li>
-            <li><a href="../contacto/contacto.html">Contacto</a></li>
-            <li><a href="../sugerencia/sugerencia.html">Sugerencias</a></li>
-            <li><a href="../recursos/recursos.html">Recursos</a>
-                <ol>
-                    <li><a href="../recursos/prevencion/prevencion.html">Prevención</a></li>
-                    <li><a href="../recursos/sistemas/sistemas.html">Sistemas</a></li>
-                </ol>
-            </li>
-        </ul>
-    </section>
-    
+	<main>
+		<nav class="migasPan">
+			<a href="../index.html">Inicio</a> > <span>Mapa Visual</span>
+		</nav>
+		<section id="contenidoPrincipal">
+			<ul class="anidacionl">
+				<li><a href="../index.html">Página principal</a></li>
+				<ul class="anidacionl2">
+					<li><a href="../A/letra_a.html">Índice A</a></li>
+					<ul class="anidacionl3">
+						<li><a href="../A/enfermedades/articulo_anemia.html">Anemia</a></li>
+						<li><a href="../A/enfermedades/articulo_asma.html">Asma</a></li>
+					</ul>
+					<li><a href="../B/letra_b.html">Índice B</a></li>
+					<ul class="anidacionl3">
+						<li><a href="../B/enfermedades/articulo_blefaritis.html">Blefaritis</a></li>
+						<li><a href="../B/enfermedades/articulo_bradicardia.html">Bradicardia</a></li>
+					</ul>
+					<li><a href="../buscador/buscador.html">Buscador</a></li>
+					<li><a href="../contacto/contacto.html">Contacto</a></li>
+					<li><a href="../sugerencia/sugerencia.html">Sugerencias</a></li>
+					<li><a href="../recursos/recursos.html">Recursos</a></li>
+					<ul class="anidacionl3">
+						<li><a href="../recursos/prevencion/prevencion.html">Prevención</a></li>
+						<li><a href="../recursos/sistemas/sistemas.html">Sistemas</a></li>
+					</ul>
+				</ul>
+			</ul>
+		</section>
+	</main>
     <footer>
         <p>Creado por Jorge Víllora Martínez y Raúl Sánchez Tarí</p>
     </footer>
 </body>
-
 </html>

@@ -1,0 +1,28 @@
+@import url("predeterminado.css");
+
+@import url("estilo-alto-contraste.css");
+
+
+body {
+    font-size: 2em;
+}
+
+section, table, aside {
+    margin: 15px 0;
+}
+
+article {
+    margin: 15px 0;
+}
+
+nav {
+    margin: 15px 0;
+}
+
+ nav h3 {
+    color: blue;
+ }
+
+ .anuncio h3 {
+    color: white;
+ }

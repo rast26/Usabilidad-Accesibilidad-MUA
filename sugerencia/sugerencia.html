@@ -1,94 +1,81 @@
 <!doctype HTML>
 <html lang="es">
-
 <head>
-<meta charset="utf-8">
+    <meta charset="utf-8">
+    <title>Enciclopedia MUA - Sugerencias</title>
+    <link rel="stylesheet" href="../estilos/predeterminado.css">
+   
+<link href="../estilos/estilo-oscuro.css" rel="alternate stylesheet" media="screen" title="Tema oscuro">
+<link href="../estilos/estilo-grande.css" rel="alternate stylesheet" media="screen" title="Tema grande">
 
-<title> Enciclopedia MUA  - Sugerencias</title>
+<link href="../estilos/estilo-alto-contraste-y-grande.css" rel="alternate stylesheet" media="screen" title="Tema alto contraste y grande">
 
-<link rel="stylesheet" href="../estilos/styles.css">
+<link rel="stylesheet" href="../estilos/estilo-impresión.css" media="print">
+
+<link href="../estilos/estilo-alto-contraste.css" rel="alternate stylesheet" media="screen" title="Alto Contraste">
+
 </head>
-
 <body>
-<header>
-	
-<a href="../index.html">
-	<img src="../img/logo.jpg" width="100" alt="logo">
-</a>
-<a href="#contenidoPrincipal" class="saltar">Saltar al contenido principal</a>
-<link rel="stylesheet" href="../styles.css">
-	<h1>Sugerencias</h1>
-</header>
-
-
-<nav>
-<a href="../index.html">Inicio</a> > <span>Sugerencias</span>
-</nav>
-
-
-    <form action="respuesta/respuesta.html" method="get"  id="contenidoPrincipal">
-
-
-<h3>Escribe su sugerencia para que podamos mejorar el sitio web</h3>
-<p>Los campos con asteriscos son obligatorios (*)</p>
-<section>
-<h3> Datos personales para contacto:</h3>
-<p> <label> Nombre*:  <input type="text" required> </label> </p>
-<p> <label> Apellidos*:  <input type="text" required> </label> </p>
-<p> <label> Fecha nacimiento*:  <input type="date" required> </label> </p>
-<p> <label> Teléfono*:  <input type="tel" pattern="[0-9]{9}" required> </label> </p>
-<p> <label> Correo*:  <input type="email" required> </label> </p>
-</section>
-<section>
-<h3>Formulario de satisfacción:</h3>
-<fieldset>
-<legend>Preguntas adicionales</legend>
-
-        	<p>¿Recomendarías este sitio a otros?</p>
-        	<p>
-            	<label>
-                	<input type="radio" name="recomendarias" value="si"> Sí
-            	</label>
-            	<label>
-                	<input type="radio" name="recomendarias" value="no"> No
-            	</label>
-        	</p>
-
-	<p>¿Te gustaría volver a visitar el sitio?</p>
-        	<p>
-            	<label>
-                	<input type="radio" name="volver_visitar" value="si"> Sí
-            	</label>
-            	<label>
-                	<input type="radio" name="volver_visitar" value="no"> No
-            	</label>
-        	</p>
-	<p>Del 1 al 10, ¿cómo valorarías nuestra página web?</p>
-<p>
-	<label for="valoracion">Valoración:</label>
-	<input type="range" id="valoracion" min="1" max="10" value="1" oninput="this.nextElementSibling.value = this.value">
-	<input type="text" value="1" readonly>
-</p>
-
-            <p>¿Qué color prefieres para el diseño de la página web?</p>
-            <p><label>Color: <input type="color"></label></p>
-</fieldset>	
-</section>
-<section>
-<h3>Desarrolla tu sugerencia:</h3>
-<p>
-        	<label> Sugerencia*: <textarea required></textarea> </label>
-    	</p>
-
-</section>
-
-<input type = "submit" value="enviar">
-
-</form>
-
-
-<footer>
-	<p>Creado por Jorge Víllora Martínez y Raúl Sánchez Tarí</p>
-</footer>
-
+    <header>
+		<a href="#contenidoPrincipal" class="saltar">Saltar al contenido principal</a>
+        <a href="../index.html">
+            <img src="../img/logo.jpg" width="100" alt="logo">
+        </a>      
+        <h1>Sugerencias</h1>
+    </header>
+	<main>
+    	<nav class="migasPan">
+        	<a href="../index.html">Inicio</a> > <span>Sugerencias</span>
+    	</nav>
+		<section>
+        	<p class="aviso">Los campos con asteriscos son obligatorios (*)</p>
+			<h2>Escribe su sugerencia para que podamos mejorar el sitio web</h2>
+			<hr>
+    		<form action="respuesta/respuesta.html" method="get" id="contenidoPrincipal">
+            	<h3>Datos personales para contacto:</h3>
+            	<p><label>Nombre*: <input type="text" required></label></p>
+            	<p><label>Apellidos*: <input type="text" required></label></p>
+            	<p><label>Fecha nacimiento*: <input type="date" required></label></p>
+            	<p><label>Teléfono*: <input type="tel" pattern="[0-9]{9}" required></label></p>
+            	<p><label>Correo*: <input type="email" required></label></p>
+            	<h3>Formulario de satisfacción:</h3>
+            	<fieldset>
+                	<legend>Preguntas adicionales</legend>
+                	<p>¿Recomendarías este sitio a otros?</p>
+                	<p>
+                    	<label>
+                        	<input type="radio" name="recomendarias" value="si"> Sí
+                    	</label>
+                    	<label>
+                        	<input type="radio" name="recomendarias" value="no"> No
+                    	</label>
+                	</p>
+                	<p>¿Te gustaría volver a visitar el sitio?</p>
+                	<p>
+                    	<label>
+                        	<input type="radio" name="volver_visitar" value="si"> Sí
+                    	</label>
+                    	<label>
+                        	<input type="radio" name="volver_visitar" value="no"> No
+                    	</label>
+                	</p>
+                	<p>Del 1 al 10, ¿cómo valorarías nuestra página web?</p>
+                	<p>
+                    	<label for="valoracion">Valoración:</label>
+                    	<input type="range" id="valoracion" min="1" max="10" value="1" oninput="this.nextElementSibling.value = this.value">
+                    	<input type="text" value="1" readonly>
+                	</p>
+                	<p>¿Qué color prefieres para el diseño de la página web?</p>
+                	<p><label>Color: <input type="color"></label></p>
+            	</fieldset>
+				<h3>Desarrolla tu sugerencia:</h3>
+            	<p><label>Sugerencia*: <textarea required></textarea></label></p>
+			</form>
+			<input type="submit" value="Enviar" class="enviar"> 
+        </section>
+	</main>
+    <footer>
+        <p>Creado por Jorge Víllora Martínez y Raúl Sánchez Tarí</p>
+    </footer>
 </body>
+</html>

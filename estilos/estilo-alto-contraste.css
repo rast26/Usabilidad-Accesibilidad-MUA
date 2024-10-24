@@ -1,0 +1,46 @@
+@import url("predeterminado.css");
+
+
+body, html {
+    background-color: black;
+    color: yellow;
+}
+
+header, footer {
+    background-color: #0000FF;
+}
+
+section, table, aside, nav, article {
+    background-color: black;
+    color: yellow;
+}
+
+/* Enlaces */
+a, header nav a, .enviar {
+    background-color: #FFFF00;
+    color: black;
+}
+
+a:hover, header nav a:hover, .enviar:hover {
+    background-color: #FF4500;
+    color: black;
+}
+
+/* Resaltado del foco */
+*:focus {
+    outline: 3px solid red;
+}
+
+/* Otros estilos */
+.anuncio {
+    background-color: #111;
+    border: 2px solid #FFD700;
+}
+
+.migasPan {
+    background-color: #111;
+}
+
+.migasPan a {
+    color: yellow;
+}

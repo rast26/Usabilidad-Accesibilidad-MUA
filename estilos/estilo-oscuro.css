@@ -1,0 +1,48 @@
+@import url("predeterminado.css");
+
+body, html {
+    background-color: #121212;
+    color: #CCCCCC;
+}
+
+header, footer {
+    background-color: #1F1F1F;
+}
+
+section, table, aside, nav, article {
+    background-color: #1C1C1C;
+    color: #CCCCCC;
+}
+
+/* Enlaces */
+a, header nav a, .enviar {
+    background-color: #333333;
+    color: #CCCCCC;
+}
+
+a:hover, header nav a:hover, .enviar:hover {
+    background-color: #505050;
+    color: white;
+}
+
+/* Otros estilos */
+.anuncio {
+    background-color: #2C2C2C;
+    border: 2px solid #4B4B4B;
+}
+
+.anuncio h3{
+    color: rgb(242, 230, 208);
+}
+
+.migasPan {
+    background-color: #2C2C2C;
+}
+
+.migasPan a {
+    color: #CCCCCC;
+}
+
+nav h3{
+    color: #1C1C1C;
+}

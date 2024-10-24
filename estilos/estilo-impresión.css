@@ -1,0 +1,19 @@
+@import url("predeterminado.css");
+
+
+nav {
+    display: none;
+}
+
+header img {
+    width: 4cm;
+}
+
+main img {
+    width: 10cm;
+}
+
+
+a::after {
+    content: " (" attr(href) ") ";
+}

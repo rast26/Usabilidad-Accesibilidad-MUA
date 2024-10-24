@@ -1,42 +1,44 @@
 <!doctype HTML>
 <html lang="es">
-
 <head>
-<meta charset="utf-8">
+    <meta charset="utf-8">
+    <title>Enciclopedia médica - UA </title>
+    <link rel="stylesheet" href="estilos/predeterminado.css">
+<link href="estilos/estilo-oscuro.css" rel="alternate stylesheet" media="screen" title="Tema oscuro">
+<link href="estilos/estilo-grande.css" rel="alternate stylesheet" media="screen" title="Tema grande">
 
-<title> Enciclopedia médica - UA  </title>
-<link rel="stylesheet" href="estilos/styles.css">
+<link href="estilos/estilo-alto-contraste-y-grande.css" rel="alternate stylesheet" media="screen" title="Tema alto contraste y grande">
+
+<link rel="stylesheet" href="estilos/estilo-impresión.css" media="print">
+
+<link href="estilos/estilo-alto-contraste.css" rel="alternate stylesheet" media="screen" title="Alto Contraste">
+
 </head>
-
 <body> 
-<header>
-	<h1>Enciclopedia  MUA</h1>
-	<a href="index.html">
-		<img src="img/logo.jpg" width="100" alt="logo">
-	</a>
-	<a href="#contenidoPrincipal" class="saltar">Saltar al contenido principal</a>
-	<hr>
-	
-	<h2>Herramientas</h2>
-	<aside>
-		<ul>
-			<li><a href="buscador/buscador.html">Buscador</a></li>
-			<li><a href="sugerencia/sugerencia.html">Sugerencias página web</a></li>
-			<li><a href="contacto/contacto.html">Contacto</a></li>
-			<li><a href="mapavisual/mapavisual.html">Mapa Visual</a></li>
-			<li><a href="declaracionac/declaracionac.html">Declaración accesibilidad</a></li>
-		</ul>
-	</aside>
-	
-</header>
-
-<section>
-<h3>Enciclopedia de las enfermedades e infecciones</h3>
-</section>
-
-<section id="contenidoPrincipal">
-            <h2>Índice A-Z</h2>
+    <header>
+        <a href="#contenidoPrincipal" class="saltar">Saltar al contenido principal</a>    
+	    <a href="index.html">
+		    <img src="img/logo.jpg" width="100" alt="logo">
+	    </a>
+        <h1>Enciclopedia  MUA</h1>
+	    <nav>
+            <h2>Herramientas</h2>
+            <hr>
+		    <ul>
+			    <li><a href="buscador/buscador.html">Buscador</a></li>
+			    <li><a href="sugerencia/sugerencia.html">Sugerencias página web</a></li>
+			    <li><a href="contacto/contacto.html">Contacto</a></li>
+			    <li><a href="mapavisual/mapavisual.html">Mapa Visual</a></li>
+			    <li><a href="declaracionac/declaracionac.html">Declaración accesibilidad</a></li>
+                <li><a href="recursos/recursos.html">Recursos adicionales</a></li>
+		    </ul>
+	    </nav>       
+    </header>
+    <main id="contenidoPrincipal">
+        <section>
+            <h2>Enciclopedia de las enfermedades e infecciones</h2>
             <nav>
+                <h3>Índice A-Z</h3>
                 <ul>
                     <li><a href="A/letra_a.html">A</a></li>
                     <li><a href="B/letra_b.html">B</a></li>
@@ -67,38 +69,24 @@
                 </ul>
             </nav>
         </section>
-
-<section> 
- 	<h2> Recursos adicionales </h2>
-	<ul>
-		<li><a href="recursos/recursos.html">Recursos adicionales</a></li>
-	</ul>
-</section>
-
-
-<article class="anuncio"> 
- 	<h2> Temas Destacados </h2>
-	<h3>Bradicardia</h3>
-	<p>Bradicardia: Frecuencia cardiaca por debajo de lo normal</p>
-	<img src="img/bradycardia.jpg" alt="Imágen que muestra como es el latido es más lento en personas con bradicardia" width="100">
-<ul>
-	<li><a class="conBorde" href="B/enfermedades/articulo_bradicardia.html">Entrar al artículo bradicardia</a></li>
-</ul>
-	<h3>Blefaritis</h3>
-	<p>Blefaritis: Inflamación de los bordes de los párpados</p>
-	<img src="img/blefaritis.jpg" alt="Imágen que muestra como es la enfermedad de la blefaritis" width="100">
-	<ul>
-<li> <a class="conBorde" href="B/enfermedades/articulo_blefaritis.html">Entrar al artículo blefaritis</a> </li>
-</ul>
-</article>
-
-
-<footer>
-	<p>Creado por Jorge Víllora Martínez y Raúl Sánchez Tarí</p>
-</footer>
-
-
+        <aside>
+            <h2>Temas Destacados</h2>
+            <article class="anuncio"> 
+	            <h3>Bradicardia</h3>
+	            <p>Bradicardia: Frecuencia cardiaca por debajo de lo normal</p>
+	            <img src="img/bradycardia.jpg" alt="Imágen que muestra como es el latido es más lento en personas con bradicardia" width="100">
+                <p><a class="conBorde" href="B/enfermedades/articulo_bradicardia.html">Entrar al artículo bradicardia</a></p>
+            </article>
+            <article class="anuncio">
+	            <h3>Blefaritis</h3>
+	            <p>Blefaritis: Inflamación de los bordes de los párpados</p>
+	            <img src="img/blefaritis.jpg" alt="Imágen que muestra como es la enfermedad de la blefaritis" width="100">
+	            <p><a class="conBorde" href="B/enfermedades/articulo_blefaritis.html">Entrar al artículo blefaritis</a></p>
+            </article>
+        </aside>
+    </main>
+    <footer>
+	    <p>Creado por Jorge Víllora Martínez y Raúl Sánchez Tarí</p>
+    </footer>
 </body>
-
-
 </html>
