@@ -31,7 +31,7 @@ a:hover, header nav a:hover, .enviar:hover {
     border: 2px solid #4B4B4B;
 }
 
-.anuncio h3{
+.anuncio h3, .aviso {
     color: rgb(242, 230, 208);
 }
 

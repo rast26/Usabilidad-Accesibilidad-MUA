@@ -17,3 +17,8 @@ main img {
 a::after {
     content: " (" attr(href) ") ";
 }
+@media print {
+    main img {
+        width: 10cm !important; 
+    }
+}
