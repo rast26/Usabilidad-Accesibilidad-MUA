@@ -1,0 +1,19 @@
+Buenos días, soy Raúl Sánchez Tarí y ahora compararemos la Computación Biológica con la computación clásica y cuántica.
+
+En primer lugar, la computación clásica tiene mucha más rapidez en cálculos secuenciales, mientras que la biológica tiene una alta capacidad de paralelismo.
+
+Por otro lado, la computación cuántica puede resolver problemas de alta complejidad. Sin embargo, requiere de condiciones extremas para operar, mientras la biológica no.
+
+Algunas ventajas de la computación biológica son:
+
+    Alta capacidad de paralelismo
+    Bajo consumo
+    Escalabilidad
+
+Y algunas desventajas son:
+
+    Mala precisión y control
+    Pobre eficiencia en tareas secuenciales
+    Dificultad al programar
+
+Muchas gracias, esto ha sido todo.

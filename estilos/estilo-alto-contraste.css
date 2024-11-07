@@ -1,9 +1,20 @@
 @import url("predeterminado.css");
 
-
 body, html {
     background-color: black;
     color: yellow;
+}
+
+nav h3 {
+    color: blue;
+}
+
+.anuncio h3 {
+    color: white;
+}
+
+.aviso {
+    color: white;
 }
 
 header, footer {

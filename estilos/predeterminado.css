@@ -1,4 +1,4 @@
-
+/* Estilo configuración general de las páginas*/
 body, html {
     font-family: 'Open Sans', sans-serif;
     line-height: 1;
@@ -223,6 +223,11 @@ nav ul li {
     padding: 10px;
 }
 
+/* Clase amara-embed */
+#video-amara{
+    width: 560px;
+    height: 315px;
+}
 /* Medida para móviles y pantallas grandes */
 @media (max-width: 768px) {
     nav ul {
