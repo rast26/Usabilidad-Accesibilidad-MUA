@@ -1,0 +1,19 @@
+Good morning, I am Raúl Sánchez Tarí, and now we will compare Biological Computing with classical and quantum computing.
+
+First, classical computing is much faster in sequential calculations, whereas biological computing has a high capacity for parallelism.
+
+On the other hand, quantum computing can solve problems of high complexity. However, it requires extreme conditions to operate, while biological computing does not.
+
+Some advantages of biological computing are:
+
+    High capacity for parallelism
+    Low energy consumption
+    Scalability
+
+And some disadvantages are:
+
+    Poor precision and control
+    Inefficiency in sequential tasks
+    Difficulty in programming
+
+Thank you very much, that’s all.

@@ -1,0 +1,40 @@
+AD:"El diseño visual incluye un título grande que dice "COMPARACIÓN" en letras azules destacadas. A la derecha, hay un ícono en forma de microchip
+ de color púrpura. Abajo, aparece una fotografía de un escritorio moderno con varias pantallas de computadora que muestran líneas de código, 
+sugiriendo un entorno de desarrollo informático."
+
+Buenos días, soy Raúl Sánchez Tarí y ahora compararemos la Computación Biológica con la computación clásica y cuántica.
+
+En primer lugar, la computación clásica tiene mucha más rapidez en cálculos secuenciales, mientras que la biológica tiene una alta capacidad de 
+paralelismo.
+
+
+
+
+AD:"El diseño mantiene la palabra "COMPARACIÓN" en letras grandes y azules en la parte superior. A la derecha, un ícono de microchip se repite 
+en color púrpura. Abajo, hay una imagen de un sistema de enfriamiento de computación cuántica, con cables y estructuras complejas, resaltando 
+la infraestructura única de estos sistemas."
+
+Por otro lado, la computación cuántica puede resolver problemas de alta complejidad. Sin embargo, requiere de condiciones extremas para operar, 
+mientras la biológica no.
+
+
+
+
+
+AD:" La imagen se divide en dos columnas, una titulada "VENTAJAS" con un ícono de ADN y gráficos de secuenciación genética multicolores,
+ mientras que la otra, titulada "DESVENTAJAS", muestra un entorno de laboratorio con un científico observando células bajo un microscopio 
+conectado a una pantalla con análisis cerebral."
+
+Algunas ventajas de la computación biológica son:
+
+    Alta capacidad de paralelismo
+    Bajo consumo
+    Escalabilidad
+
+Y algunas desventajas son:
+
+    Mala precisión y control
+    Pobre eficiencia en tareas secuenciales
+    Dificultad al programar
+
+Muchas gracias, esto ha sido todo.
