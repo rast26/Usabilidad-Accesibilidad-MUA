@@ -27,7 +27,7 @@
             <a href="../index.html">Inicio</a> > <span>Contacto</span>
         </nav>
         <section id="contenidoPrincipal">
-            <h2>Formulario de Contacto</h2> <!-- Encabezado agregado -->
+            <h2>Formulario de Contacto</h2>
             <p class="aviso">Los campos con asteriscos son obligatorios (*)</p>
             <form action="respuesta/respuesta.html" method="get">
                 <p>
@@ -37,16 +37,17 @@
                     <label> Comentario*: <textarea required></textarea> </label>
                 </p>
                 <p>
-                    <label> Yo soy*: </label>
-                    <select name="yoSoy" required>
-                        <option value="" disabled selected>Seleccione una opción</option> <!-- Opción de marcador de posición -->
-                        <option value="Paciente">Paciente</option>
-                        <option value="Científico">Científico</option>
-                        <option value="Médico">Médico</option>
-                        <option value="Educador">Educador</option>
-                        <option value="Fabricante">Fabricante</option>
-                        <option value="Periodista">Periodista</option>
-                    </select>
+                    <label> Yo soy*:
+                        <select name="yoSoy" required>
+                            <option value="" disabled selected>Seleccione una opción</option>
+                            <option value="Paciente">Paciente</option>
+                            <option value="Científico">Científico</option>
+                            <option value="Médico">Médico</option>
+                            <option value="Educador">Educador</option>
+                            <option value="Fabricante">Fabricante</option>
+                            <option value="Periodista">Periodista</option>
+                        </select>
+                    </label>
                 </p>
                 <p>
                     <label for="nacimiento">Fecha de nacimiento:</label>

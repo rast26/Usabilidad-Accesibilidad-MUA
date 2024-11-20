@@ -129,12 +129,12 @@ ul li {
 }
 
 .anidacionl li a{
-    background-color: #566e6b;
+    background-color: #255798;
     margin: 5px;
 }
 
 .anidacionl2 li a{
-    background-color: #1e796fb8;
+    background-color: #365E59;
 }
 
 .anidacionl3 li a{
@@ -179,7 +179,7 @@ nav ul li {
 /* Clase conBorde */
 .conBorde {
     border: 3px solid #000000d2;
-    background-color: #6c8c90;
+    background-color: #46595D;
     font-size: 15px;
 }
 
