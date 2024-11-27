@@ -66,8 +66,10 @@ caption {
 }
 
 footer {
-    text-align: center;
     padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     background-color: #00264d;
     color: white;
     margin: 0;
@@ -118,6 +120,10 @@ header a:hover {
     background-color: transparent;
 }
 
+footer a {
+    background-color: transparent;
+    color: white;
+}
 /* Estilo de listas */
 ul{
     list-style: none;
